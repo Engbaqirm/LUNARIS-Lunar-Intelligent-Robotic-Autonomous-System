@@ -1,1 +1,34 @@
+# LUNARIS: Mechanical Architecture and Chassis Design
 
+This folder contains all the mechanical engineering assets, structural designs, and chassis documentation for the LUNARIS rover platform.
+
+---
+
+## 📐 Design Overview
+
+The mechanical subsystem of LUNARIS is engineered to withstand rugged terrain simulations while maintaining structural rigidity and modularity. The focus of this design is balancing a high strength-to-weight ratio with mechanical adaptability.
+
+---
+
+## 🛠️ Key Components
+
+### 1. Chassis Frame: 2020 T-Slot Aluminum Extrusions
+* **Highly Modular:** The 2020 aluminum profiles allow for rapid hardware adjustments, shifting of the center of gravity, and easy mounting of custom 3D-printed parts, brackets, and electronic enclosures.
+* **Structural Integrity:** Provides excellent rigidity against twisting and bending forces during terrain traversal.
+* **Thermal Dissipation:** Acts as a passive heatsink setup for heavy electronic components mounted directly onto the framework.
+
+### 2. Suspension: 6-Wheel Rocker-Bogie System
+* **Ground Contact:** This passive suspension mechanism ensures that all six wheels maintain traction and constant contact with the surface, even when navigating slopes up to 45 degrees.
+* **Obstacle Clearance:** Allows the rover to smoothly climb over obstacles that are twice the diameter of its wheels without losing chassis stability.
+
+### 3. Differential Linkage Mechanism
+* **Mechanical Feedback:** Connects the left and right rocker assemblies to average their motions.
+* **Payload Stabilization:** Keeps the main equipment chassis and sensor deck level relative to the general terrain, preventing drastic pitch shifts that could disrupt camera or LiDAR data.
+
+---
+
+## 📁 Folder Contents
+
+* **3D_Models/** - Contains STEP/STL files for the chassis joints, custom wheel hubs, and sensor mounts.
+* **Blueprints/** - Detailed dimensional drawings of the 2020 aluminum profile cuts and assembly schematics.
+* **Images/** - High-resolution photographs of the physical chassis assembly and suspension tests.
